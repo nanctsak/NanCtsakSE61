@@ -1,0 +1,49 @@
+body{
+    background:url(C:\Users\NanCtsak\Desktop\SE\healthcare-data.jpg);
+    /*background: rgb(197, 239, 247);*/
+    margin: 0 0;
+    min-height: 100vh;
+    height: 100%;
+    
+}
+
+.topTitleBackgound{ /*กรอบด้านหลัง*/
+    background:rgb(189, 195, 199);
+    opacity: .8;
+    min-height: 90vh;
+    width: 80%;
+    margin: 2% 5% ;
+    text-align: center;
+}
+.topTitle{     /*tapชื่อหัว*/
+    background:rgb(25, 181, 254);
+     width: 98%;
+    text-align: center;
+}
+
+.top-card{        /*Hospital Profile*/
+    background:rgb(228, 241, 254);
+    min-height: 50vh;
+    width:28%;
+    margin-top: 1% ;
+    text-align:left;
+    
+}
+.middle-card{
+    background:transparent;
+    width: 100%;
+    margin: auto auto;
+    margin-top: 2% ;
+    text-align:center;  
+}
+
+.example-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+ table {
+        width: 70%;
+      }
+     
