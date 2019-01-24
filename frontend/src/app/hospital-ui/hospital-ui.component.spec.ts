@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HospitalServiceComponent } from './hospital-service.component';
+import { HospitalUIComponent } from './hospital-ui.component';
 
-describe('HospitalServiceComponent', () => {
-  let component: HospitalServiceComponent;
-  let fixture: ComponentFixture<HospitalServiceComponent>;
+describe('HospitalUIComponent', () => {
+  let component: HospitalUIComponent;
+  let fixture: ComponentFixture<HospitalUIComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HospitalServiceComponent ]
+      declarations: [ HospitalUIComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HospitalServiceComponent);
+    fixture = TestBed.createComponent(HospitalUIComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
