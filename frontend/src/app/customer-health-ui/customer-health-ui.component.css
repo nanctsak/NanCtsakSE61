@@ -1,0 +1,23 @@
+.header-text{
+    width: 50%;
+    text-align: center;
+    color: #3E211E;
+    font-family: 'Itim', cursive;
+    margin: auto auto;
+    font-size: 30px;
+  }
+    .topTitle{     /*tapชื่อหัว*/
+    font-family: 'Itim', cursive;
+    font-size: 35px; 
+    background:rgb(75, 119, 190);
+    text-align: center;
+    height: 30px;
+  }
+  .topTitleBackgound{ /*กรอบด้านหลัง*/
+    background:rgb(199, 237, 248);
+    opacity: 0.9;
+    min-height: 70vh;
+    width: 60%;
+    margin: 2% 18%;
+    text-align: center;
+  }
